@@ -1,0 +1,59 @@
+body{
+  padding: 1rem;
+  background-image: url(/images/backg.jpg);
+  background-size: cover;
+  color: white;
+  justify-content: center;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+input[type=text], input[type=password] {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+  }
+  
+  button[type=submit] {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 18px;
+  }
+  .login-form {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 80vw;
+    padding-top: 50px;
+  }
+  .form-area {
+    height: 70vh;
+    width: 50vw;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    padding-left: 3rem;
+  }
+  a {
+    text-decoration: none;
+    color: aqua;
+  }
+  br{
+    padding: 20px;
+  }
+  .form-area button {
+    padding-left: 5px;
+    justify-content: center;
+  }

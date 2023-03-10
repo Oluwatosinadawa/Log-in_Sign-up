@@ -1,0 +1,58 @@
+body {
+    background-image: url(/images/backg.jpg);
+    background-size: cover;
+    padding: 1rem;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+form {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 80%;
+    width: 60%;
+    padding: 15rem;
+}
+input {
+    width: 40rem;
+    border-radius: 45px;
+    background-color: white;
+    height: 30px;
+    border: none;
+}
+a {
+    text-decoration: none;
+    color: aqua;
+}
+br {
+    padding: 20px;
+}
+label{
+    margin-top: 10px;
+    align-items: center;
+}
+button {
+    margin-top: 10px;
+    padding: 2px;
+    height: 40px;
+    width: 20%;
+    border: none;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+}
+@media screen and (max-width: 650px) {
+    form {
+        height: 70%;
+        width: 70%;
+        padding: 2rem
+    };
+    input {
+        width: 50%;
+    }
+    
+}
