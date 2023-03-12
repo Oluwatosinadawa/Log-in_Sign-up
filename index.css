@@ -44,3 +44,16 @@ header{
     padding: 1rem;
     padding-left: 10px;
 }
+@media screen {
+    header {
+        width: 100%;
+        padding: 5px;
+    }    
+    .welcome img {
+        display: flex;
+        justify-content: flex-start;
+        height: 10rem;
+        width: 15rem;
+        padding: 0;
+    }
+}
